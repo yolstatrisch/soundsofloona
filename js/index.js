@@ -39,10 +39,12 @@ $(function(){
 
             audioElement.addEventListener("canplay",function(){
                 is_playing = true;
+                $('#' + id).addClass('active');
             });
 
             audioElement.addEventListener('ended', function() {
                 is_playing = false;
+                $('#' + id).removeClass('active');
             }, true);
         }
     }

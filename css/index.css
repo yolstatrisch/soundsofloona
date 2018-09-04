@@ -36,7 +36,7 @@ body, html{
     margin: 2px;
 }
 
-.button:hover{
+.button:hover, .button.active{
     background-color: #ddd;
 }
 
@@ -77,39 +77,39 @@ body, html{
     box-shadow: inset 0px 0px 2px 1px var(--olivia);
 }
 
-.heejin:hover{
+.heejin:hover, .heejin.active{
     box-shadow: inset 0px 0px 70px 1px var(--heejin);
 }
-.hyunjin:hover{
+.hyunjin:hover, .hyunjin.active{
     box-shadow: inset 0px 0px 70px 1px var(--hyunjin);
 }
-.haseul:hover{
+.haseul:hover, .haseul.active{
     box-shadow: inset 0px 0px 70px 1px var(--haseul);
 }
-.yeojin:hover{
+.yeojin:hover, .yeojin.active{
     box-shadow: inset 0px 0px 70px 1px var(--yeojin);
 }
-.vivi:hover{
+.vivi:hover, .vivi.active{
     box-shadow: inset 0px 0px 70px 1px var(--vivi);
 }
-.kimlip:hover{
+.kimlip:hover, .kimlip.active{
     box-shadow: inset 0px 0px 70px 1px var(--kimlip);
 }
-.jinsoul:hover{
+.jinsoul:hover, .jinsoul.active{
     box-shadow: inset 0px 0px 70px 1px var(--jinsoul);
 }
-.choerry:hover{
+.choerry:hover, .choerry.active{
     box-shadow: inset 0px 0px 70px 1px var(--choerry);
 }
-.yves:hover{
+.yves:hover, .yves.active{
     box-shadow: inset 0px 0px 70px 1px var(--yves);
 }
-.chuu:hover{
+.chuu:hover, .chuu.active{
     box-shadow: inset 0px 0px 70px 1px var(--chuu);
 }
-.gowon:hover{
+.gowon:hover, .gowon.active{
     box-shadow: inset 0px 0px 70px 1px var(--gowon);
 }
-.olivia:hover{
+.olivia:hover, .olivia.active{
     box-shadow: inset 0px 0px 70px 1px var(--olivia);
 }
