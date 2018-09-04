@@ -2,6 +2,8 @@ $(function(){
     var members = ['heejin', 'hyunjin', 'haseul', 'yeojin', 'vivi', 'kimlip',
                     'jinsoul', 'choerry', 'yves', 'chuu', 'gowon', 'olivia'];
 
+    is_playing = false;
+
     init = function init(){
         $('#main-container').append(function(){
             var count = 6;
@@ -16,7 +18,7 @@ $(function(){
                             .addClass(members[i * 2 + j])
                             .attr('id', (i * 2 + j) * 3 + k)
                             .on('click', function(){
-                                console.log($(this).attr('id'));
+                                play($(this).attr('id'));
                             });
                         row.append(node);
                     }
@@ -27,6 +29,22 @@ $(function(){
 
             return container;
         });
+    }
+
+    play = function play(id){
+        if(!is_playing){
+            var audioElement = document.createElement('audio');
+            audioElement.setAttribute('src', 'media/' + id + '.mp3');
+            audioElement.play();
+
+            audioElement.addEventListener("canplay",function(){
+                is_playing = true;
+            });
+
+            audioElement.addEventListener('ended', function() {
+                is_playing = false;
+            }, true);
+        }
     }
 
     init();
