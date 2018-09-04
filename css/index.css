@@ -1,0 +1,115 @@
+:root{
+    --heejin: #ed028be0;
+    --hyunjin: #fee502e0;
+    --haseul: #01a232e0;
+    --yeojin: #fc9701e0;
+    --vivi: #fdc5c6e0;
+    --kimlip: #d80110e0;
+    --jinsoul: #0701d3e0;
+    --choerry: #b901dde0;
+    --yves: #780202e0;
+    --chuu: #ffa97ae0;
+    --gowon: #01bea2e0;
+    --olivia: #555555e0;
+}
+
+body, html{
+    background-color: #000;
+}
+
+.main-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+}
+
+.button{
+    height: 100px;
+    width: 100px;
+    border-radius: 12.5%;
+    background-color: #000;
+    margin: 2px;
+}
+
+.button:hover{
+    background-color: #ddd;
+}
+
+.heejin{
+    box-shadow: inset 0px 0px 2px 1px var(--heejin);
+}
+.hyunjin{
+    box-shadow: inset 0px 0px 2px 1px var(--hyunjin);
+}
+.haseul{
+    box-shadow: inset 0px 0px 2px 1px var(--haseul);
+}
+.yeojin{
+    box-shadow: inset 0px 0px 2px 1px var(--yeojin);
+}
+.vivi{
+    box-shadow: inset 0px 0px 2px 1px var(--vivi);
+}
+.kimlip{
+    box-shadow: inset 0px 0px 2px 1px var(--kimlip);
+}
+.jinsoul{
+    box-shadow: inset 0px 0px 2px 1px var(--jinsoul);
+}
+.choerry{
+    box-shadow: inset 0px 0px 2px 1px var(--choerry);
+}
+.yves{
+    box-shadow: inset 0px 0px 2px 1px var(--yves);
+}
+.chuu{
+    box-shadow: inset 0px 0px 2px 1px var(--chuu);
+}
+.gowon{
+    box-shadow: inset 0px 0px 2px 1px var(--gowon);
+}
+.olivia{
+    box-shadow: inset 0px 0px 2px 1px var(--olivia);
+}
+
+.heejin:hover{
+    box-shadow: inset 0px 0px 70px 1px var(--heejin);
+}
+.hyunjin:hover{
+    box-shadow: inset 0px 0px 70px 1px var(--hyunjin);
+}
+.haseul:hover{
+    box-shadow: inset 0px 0px 70px 1px var(--haseul);
+}
+.yeojin:hover{
+    box-shadow: inset 0px 0px 70px 1px var(--yeojin);
+}
+.vivi:hover{
+    box-shadow: inset 0px 0px 70px 1px var(--vivi);
+}
+.kimlip:hover{
+    box-shadow: inset 0px 0px 70px 1px var(--kimlip);
+}
+.jinsoul:hover{
+    box-shadow: inset 0px 0px 70px 1px var(--jinsoul);
+}
+.choerry:hover{
+    box-shadow: inset 0px 0px 70px 1px var(--choerry);
+}
+.yves:hover{
+    box-shadow: inset 0px 0px 70px 1px var(--yves);
+}
+.chuu:hover{
+    box-shadow: inset 0px 0px 70px 1px var(--chuu);
+}
+.gowon:hover{
+    box-shadow: inset 0px 0px 70px 1px var(--gowon);
+}
+.olivia:hover{
+    box-shadow: inset 0px 0px 70px 1px var(--olivia);
+}
