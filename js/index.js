@@ -3,6 +3,7 @@ $(function(){
                     'jinsoul', 'choerry', 'yves', 'chuu', 'gowon', 'olivia'];
 
     is_playing = false;
+    has_no_limit = false;
 
     init = function init(){
         $('#main-container').append(function(){
@@ -32,7 +33,7 @@ $(function(){
     }
 
     play = function play(id){
-        if(!is_playing){
+        if(has_no_limit || !is_playing){
             var audioElement = document.createElement('audio');
             audioElement.setAttribute('src', 'media/' + id + '.mp3');
             audioElement.play();

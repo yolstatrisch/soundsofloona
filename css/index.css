@@ -36,7 +36,11 @@ body, html{
     margin: 2px;
 }
 
-.button:hover, .button.active{
+.button:hover{
+    background-color: #bbb;
+}
+
+.button.active{
     background-color: #ddd;
 }
 
